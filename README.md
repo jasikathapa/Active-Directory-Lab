@@ -22,3 +22,21 @@ To design and implement the core Active Directory infrastructure for a multi-sit
 - Organised users into appropriate OUs
 - Added client machines to the domain
 - Verified domain authentication and login
+<!-- <img width="1026" height="854" alt="oldname" src="https://github.com/user-attachments/assets/0a6f9f39-4397-4815-a8c5-fbed28872a14" />
+Reboot and hold f8 to enter boot menu
+select 'safe mode with networking'
+
+Login with administrator account
+
+open the Registry Editor
+In the left pane navigate to
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SchedulingAgent
+In the right pane, double click OldName
+
+The Value Data should be the old name of your PC . . .
+
+Control panel -> system -> rename this pc
+Enter the old name and restart
+
+<img width="1045" height="983" alt="AD broken" src="https://github.com/user-attachments/assets/f2d7a3e7-8e67-489f-95e4-a28df3a1dcda" />
+-->
