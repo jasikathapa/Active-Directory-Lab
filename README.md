@@ -6,13 +6,14 @@ This project is a self-built Active Directory lab designed to simulate a real-wo
 
 ## 🖥️ Environment
 
-- Windows Server (2019/2022)
-- Active Directory Domain Services (AD DS)
-- Windows 10/11 Client Machines
+- 💻 Windows Server (2019/2022)
+- 👥 Active Directory Domain Services (AD DS)
+- 🖥️ Windows 10/11 Client Machines
+- 🖥️ [VirtualBox](https://www.virtualbox.org/)
 
 ## ⚙️ Setup
-- Download and install [VirtualBox](https://www.virtualbox.org/) on your host machine
-- Create NAT Network 🌐
+- 🌐 Create NAT Network 
+
 ```
    - Network Name: `NAT Network`
    - IPv4 Network CIDR: `10.0.2.0/24`
@@ -20,19 +21,23 @@ This project is a self-built Active Directory lab designed to simulate a real-wo
 ```
 > 💡 **Tip:** NAT Network allows your VMs to communicate and access the internet.
   
-## Video
-### 1. Domain Setup
-- Installed and configured Active Directory Domain Services
-- Created a new domain for the organisation: **MobileHub.local**
+## 🎥 Video
 
-### 2. OU (Organisational Unit) Design
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/7be032d8-00cb-4626-a677-b17b4e88c8b8" />
 
-### 3. User & Computer Management
-- Created domain users for each department
-- Organised users into appropriate OUs
-- Added client machines to the domain
-- Verified domain authentication and login
+### Summary
+- Installed Active Directory Domain Services (AD DS)
+- Promoted server to Domain Controller
+- Created domain: MobileHub.local
+- Configured DNS for domain resolution
+- Domain successfully created and ready for client join
+- Created domain user accounts
+- Assigned users to departments (IT, HR, Sales)
+- Organised users within appropriate OUs
+- Created security groups for access control
+- Created distribution groups for communication
+- Assigned users to relevant groups
+
+
 <!-- <img width="1026" height="854" alt="oldname" src="https://github.com/user-attachments/assets/0a6f9f39-4397-4815-a8c5-fbed28872a14" />
 Reboot and hold f8 to enter boot menu
 select 'safe mode with networking'
