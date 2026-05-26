@@ -1,14 +1,25 @@
 
-# Active-Directory-Infrastructure-Design-Deployment
+# 🏢 Active Directory Lab – MobileHub
+This project is a self-built Active Directory lab designed to simulate a real-world enterprise domain environment. It demonstrates core IT Support and SOC Analyst skills including identity management, user administration, and domain configuration.
 
-To design and implement the core Active Directory infrastructure for a multi-site organisation, including domain setup, OU structure, and user/computer management.
+<img width="900" height="500" alt="Screenshot 2026-05-26 at 3 26 54 pm" src="https://github.com/user-attachments/assets/2c095960-0bcf-4811-8eba-1cbd828b9865" />
 
-## Environment
+## 🖥️ Environment
 
 - Windows Server (2019/2022)
 - Active Directory Domain Services (AD DS)
-- Windows 10/11 client machines
+- Windows 10/11 Client Machines
 
+## ⚙️ Setup
+- Download and install [VirtualBox](https://www.virtualbox.org/) on your host machine
+- Create NAT Network 🌐
+```
+   - Network Name: `NAT Network`
+   - IPv4 Network CIDR: `10.0.2.0/24`
+   - Enable DHCP ✔
+```
+> 💡 **Tip:** NAT Network allows your VMs to communicate and access the internet.
+  
 ## Video
 ### 1. Domain Setup
 - Installed and configured Active Directory Domain Services
