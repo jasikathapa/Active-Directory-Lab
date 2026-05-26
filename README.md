@@ -11,31 +11,34 @@ This project is a self-built Active Directory lab designed to simulate a real-wo
 - 🖥️ Windows 10/11 Client Machines
 - 🖥️ [VirtualBox](https://www.virtualbox.org/)
 
-## ⚙️ Setup
-🌐 Create NAT Network 
-
-```
-   - Network Name: `NAT Network`
-   - IPv4 Network CIDR: `10.0.2.0/24`
-   - Enable DHCP ✔
-```
-> 💡 **Tip:** NAT Network allows your VMs to communicate and access the internet.
+## 🌐 Network Setup
+- Network Name: `AD Network` \
+- IPv4 Network CIDR: `10.0.2.0/24`\
+- Enable DHCP ✔
+> 💡 NAT Network allows your VMs to communicate and access the internet. \
+> ⚠️ Ensure both AD & Windows Client Networks is selected to NAT network
   
 ## 🎥 Video
 
 
-### Summary
+#### Summary of Configuration
 - Installed Active Directory Domain Services (AD DS)
 - Promoted server to Domain Controller
-- Created domain: MobileHub.local
+- Created domain: **MobileHub.local**
 - Configured DNS for domain resolution
-- Domain successfully created and ready for client join
+- Verified domain functionality for client join
+
+#### User Configuration
 - Created domain user accounts
-- Assigned users to departments (IT, HR, Sales)
-- Organised users within appropriate OUs
-- Created security groups for access control
+- Assigned users to departmental structures (IT, HR, Sales)
+- Organised users within appropriate Organizational Units (OUs)
+
+#### Group Management
+- Created security groups for access control (RBAC)
 - Created distribution groups for communication
-- Assigned users to relevant groups
+- Assigned users based on department roles
+
+
 
 
 <!-- <img width="1026" height="854" alt="oldname" src="https://github.com/user-attachments/assets/0a6f9f39-4397-4815-a8c5-fbed28872a14" />
