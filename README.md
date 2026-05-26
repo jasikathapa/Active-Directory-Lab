@@ -12,8 +12,8 @@ This project is a self-built Active Directory lab designed to simulate a real-wo
 - 🖥️ [VirtualBox](https://www.virtualbox.org/)
 
 ## 🌐 Network Setup
-- Network Name: `AD Network` \
-- IPv4 Network CIDR: `10.0.2.0/24`\
+- Network Name: `AD Network` 
+- IPv4 Network CIDR: `10.0.2.0/24`
 - Enable DHCP ✔
 > 💡 NAT Network allows your VMs to communicate and access the internet. \
 > ⚠️ Ensure both AD & Windows Client Networks is selected to NAT network
