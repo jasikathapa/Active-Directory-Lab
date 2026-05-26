@@ -12,7 +12,7 @@ This project is a self-built Active Directory lab designed to simulate a real-wo
 - 🖥️ [VirtualBox](https://www.virtualbox.org/)
 
 ## ⚙️ Setup
-- 🌐 Create NAT Network 
+🌐 Create NAT Network 
 
 ```
    - Network Name: `NAT Network`
